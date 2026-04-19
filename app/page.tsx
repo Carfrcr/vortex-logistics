@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import ServicesSection from './components/ServicesSection'
 import TrackingSection from './components/TrackingSection'
 import FleetPanel from './components/FleetPanel'
+import QuoteSection from './components/QuoteSection'
 import Footer from './components/Footer'
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <ServicesSection />
       <TrackingSection />
       <FleetPanel />
+      <QuoteSection />
       <Footer />
     </main>
   )
